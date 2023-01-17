@@ -14,6 +14,7 @@ int[] CreateArrayRndInt(int size, int min, int max) // Создание масс
     return collection;
 }
 
+
 void PrintArray(int[] collection) // Вывод массива на печать с квадратными скобками.
 {
     System.Console.Write("[");
@@ -25,6 +26,7 @@ void PrintArray(int[] collection) // Вывод массива на печать
     System.Console.WriteLine("]");
 }
 
+
 void ReversSignElem(int[] collection) // Изменение знаков элементов массива на противоположные.
 {
     for (int i = 0; i < collection.Length; i++)
@@ -32,6 +34,7 @@ void ReversSignElem(int[] collection) // Изменение знаков эле�
         collection[i] = -collection[i];
     }
 }
+
 
 int[] array = CreateArrayRndInt(4, -10, 10);
 PrintArray(array);
