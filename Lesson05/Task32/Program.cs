@@ -3,7 +3,7 @@
 // [-4, -8, 8, 2] -> [4, 8, -8, -2]
 
 
-int[] CreateArrayRndInt(int size, int min, int max) // Создание массива и заполнение его случайными чмслами.
+int[] CreateArrayRndInt(int size, int min, int max) // Создание массива и заполнение его случайными числами.
 {
     int[] collection = new int[size];
     Random rnd = new Random();

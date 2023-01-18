@@ -5,7 +5,7 @@
 // положительных чисел равна 29, сумма отрицательных равна -20.
 
 
-int[] CreateArrayRndInt(int size, int min, int max) // Создание массива и заполнение его случайными чмслами.
+int[] CreateArrayRndInt(int size, int min, int max) // Создание массива и заполнение его случайными числами.
 {
     int[] array = new int[size];
     Random rnd = new Random();
