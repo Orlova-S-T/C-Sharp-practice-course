@@ -40,13 +40,13 @@ int[] PairMultiplicationElem(int[] collection) // Метод попарного 
     {
         dataset[i] = collection[i] * collection[collection.Length - 1 - i];
     }
-    if (collection.Length % 2 != 0) dataset[size - 1] = collection[collection.Length / 2];
+    if (collection.Length % 2 != 0) dataset[size - 1] = collection[size - 1];
     return dataset;
 
 }
 
 
-int[] array = CreateArrayRndInt(5, -9, 9);
+int[] array = CreateArrayRndInt(7, -9, 9);
 PrintArray(array);
 PrintArray(PairMultiplicationElem(array));
 
