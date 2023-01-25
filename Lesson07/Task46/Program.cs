@@ -5,6 +5,7 @@
 // 5  -2  33 -2
 // 77  3  8   1
 
+
 int[,] CreateMatrixRndIntAcrossRows(int rows, int columns, int min, int max) // Создание двумерного массива и заполнение его псевдослучайными числами.
 {
     int[,] matrix = new int[rows, columns]; // 0, 1
@@ -20,6 +21,7 @@ int[,] CreateMatrixRndIntAcrossRows(int rows, int columns, int min, int max) // 
     return matrix;
 }
 
+
 void PrintMatrix(int[,] matrix) // Вывод двумерного массива на печать (через запятую, каждая строчка в квадратных скобках).
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
@@ -33,6 +35,7 @@ void PrintMatrix(int[,] matrix) // Вывод двумерного массив�
         Console.WriteLine("  ]");
     }
 }
+
 
 int[,] array2D = CreateMatrixRndIntAcrossRows(3, 4, -99, 99);
 PrintMatrix(array2D);
