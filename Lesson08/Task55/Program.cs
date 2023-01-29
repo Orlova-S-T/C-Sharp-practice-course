@@ -80,6 +80,6 @@ if (CheckMatrixForSquareness(array2D))
 
 else
 {
-    Console.WriteLine($"Число строк {array2D.GetLength(0)} и столбцов {array2D.GetLength(1)} в двумерном массиве на совпадает, поэтому строки и столбцы невозможно поменять местами");
+    Console.WriteLine($"Число строк {array2D.GetLength(0)} и столбцов {array2D.GetLength(1)} в двумерном массиве не совпадает, поэтому строки и столбцы невозможно поменять местами");
 }
 
