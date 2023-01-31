@@ -73,8 +73,8 @@ void PrintMatrix(int[,] matrix) // Вывод двумерного массив�
 int[,] DelitionOneRowAndOneColumnInMatrix(int[,] matrix, int rowNumber, int columnNumber)
 {
     int[,] resultMatrix = new int[matrix.GetLength(0) - 1, matrix.GetLength(1) - 1];
-    int m = 0; // Нумерация строк в создаваеммом массиве.
-    int n = 0; // Нумерация столбцов в создаваеммом массиве.
+    int m = 0; // Нумерация строк в создаваемом массиве.
+    int n = 0; // Нумерация столбцов в создаваемом массиве.
 
     for (int i = 0; i < resultMatrix.GetLength(0); i++)
     {
