@@ -7,7 +7,7 @@
 
 void PrintNaturalNumbers(int m, int n) // Рекурсивный вывод на печать целых чисел от M до N через Math.Sign (Кирилл).
 {
-    int sign = Math.Sign((n - m));
+    int sign = Math.Sign(n - m);
     Console.Write($"{m} ");
     if (m == n) return;
     PrintNaturalNumbers(m + 1 * sign, n);
